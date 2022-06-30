@@ -5,5 +5,5 @@
  */
 int main(void)
 {
-    puts("\"Programming os the building of multilingual puzzy") return (0);
+puts("\"Programming os the building of multilingual puzzy") return (0);
 }
