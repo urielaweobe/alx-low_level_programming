@@ -3,7 +3,7 @@
 /**
  * _isalpha - Entry point to recieve chars
  * @c: Recieve the character
- * 
+ *
  * Desc: Returns 1 if c is a letter, lowercase or uppercase
  * Returns 0 otherwise
  * Return: 0
