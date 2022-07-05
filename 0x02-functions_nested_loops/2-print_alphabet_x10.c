@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - Entry point to the loops
  *
- * Description: Prints the alphabetx10 using the library followed by a new line.
+ * Description: Prints the alphabetx10 using the library followed by a new line
  * Return: 0
  */
 
