@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - Entry point function
- * 
+ *
  * Description: Prints the aphabet using a library followed by a new line.
  * Return: 0
  */
