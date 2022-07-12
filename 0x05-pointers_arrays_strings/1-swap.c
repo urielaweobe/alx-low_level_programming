@@ -2,7 +2,6 @@
 
 /**
  * swap_int -Function to swap values
- * 
  * @a: A value to swap
  * @b: A value to swap
  * Return: int
