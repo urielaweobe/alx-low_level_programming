@@ -1,29 +1,36 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * leet - function that encodes a string into 1337.
+ *leet - encodes a string into 1337.
+ *letters a and A are replaced by 4.
+ *Letters e and E are replaced by 3
+ *Letters o and O are replaced by 0
+ *Letters t and T are replaced by 7
+ *Letters l and L are replaced by 1
+ *@s: pointer to string.
  *
- * @s: input string
- * Return: 1337 string
+ *Return: pointer to s.
  */
-
 char *leet(char *s)
 {
-int i, j;
-char r[] = "aAeEoOtTlL";
-char l[] = "43071";
+int stringCount, leetCount;
+char leetLetters[] = "aAeEoOtTlL";
+char leetNums[] = "4433007711";
 
-i = 0;
-for (i = 0; s[i] != '\0'; i++)
+/*  scan through string */
+stringCount = 0;
+while (s[stringCount] != '\0')
+/* check whether leetLetter is found */
 {
-for (j = 0; r[j] != '\0'; j++)
+leetCount = 0;
+while (leetCount < 10)
 {
-if (s[i] == r[j])
+if (leetLetters[leetCount] == s[stringCount])
 {
-s[i] = l[j / 2];
+s[stringCount] = leetNums[leetCount];
 }
+leetCount++;
 }
+stringCount++;
 }
-
 return (s);
 }
