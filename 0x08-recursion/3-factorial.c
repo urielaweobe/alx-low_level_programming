@@ -5,7 +5,7 @@
  *
  * @n: Number
  * Return: If n is lower than 0, the funtion should return -1
- * to indicate an error 
+ * to indicate an error
  */
 
 int factorial(int n)
