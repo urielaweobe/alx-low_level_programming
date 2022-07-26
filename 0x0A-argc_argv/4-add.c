@@ -27,7 +27,7 @@ return (1);
 }
 for (i = 1; i < argc; i++)
 {
-a += atoi(argv[1]);
+a += atoi(argv[i]);
 }
 printf("%d\n", a);
 return (0);
