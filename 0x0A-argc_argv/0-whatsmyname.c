@@ -3,8 +3,8 @@
 
 /**
  * main - print name of program
- * @param argc: argument counter 
- * @param argv: pointer to array of arguments
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
  * Return: 0 on success
  */
 
