@@ -9,7 +9,7 @@
 * Return: 0 on success, 1 if two arguments not given
 */
 
-int main(intargc, char *argv[])
+int main(int argc, char *argv[])
 {
 if (argc != 3)
 {
@@ -18,5 +18,5 @@ return (1);
 }
 
 printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-return(0);
+return (0);
 }
